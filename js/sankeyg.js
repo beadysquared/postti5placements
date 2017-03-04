@@ -5,10 +5,10 @@
     data.addColumn('string', 'From');
     data.addColumn('string', 'To');
     data.addColumn('number', 'Number of Slots');
-    data.addColumn('string', { role : 'style'} );
-    data.addColumn('string', { role : 'tooltip'});
+    data.addColumn({ type:'string', role : 'style'} );
+    data.addColumn({ type: 'string', role : 'tooltip'});
     data.addRows([
-        [	'Frankfurt',		'Top 4',	1	,	'#a6cee3',	China ']
+        [	'Frankfurt',		'Top 4',	1	,	'#a6cee3',	'China']
         [	'Shanghai',		'Top 4',	0	,	'#a6cee3',	'China ']
         [	'Manila',		'Top 4',	2	,	'#a6cee3',	'China ']
         [	'The International 6',		'Top 4',	1	,	'#a6cee3',	'China ']
