@@ -4,7 +4,7 @@
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'From');
     data.addColumn('string', 'To');
-    data.addColumn('number', 'Weight');
+    data.addColumn('number', 'Number of Slots');
     data.addRows([
         ["China", 	"Top 4",    1],
         ["China", 	"Top 4",	0],
