@@ -114,3 +114,5 @@
     chart.draw(data, options);
     
    }
+   
+google.setOnLoadCallback(drawChart);
